@@ -1,3 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://super.abril.com.br/wp-content/uploads/2018/07/55de0cc80e21632c150004bfthinkstockphotos-4691080331.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  text-align: center;
+}
+
+header {
+  border: 5px solid white;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+}
+
+.solar-system {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eachPlanet {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.eachPlanet img {
+  width: 150px;
+}
+
 .App {
   text-align: center;
 }
