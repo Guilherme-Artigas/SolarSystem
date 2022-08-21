@@ -7,7 +7,7 @@
 body {
   background-image: url('https://super.abril.com.br/wp-content/uploads/2018/07/55de0cc80e21632c150004bfthinkstockphotos-4691080331.jpeg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   color: white;
   text-align: center;
 }
@@ -20,19 +20,36 @@ header {
   width: 50%;
 }
 
-.solar-system {
-  display: flex;
-  flex-wrap: wrap;
+.solar-system h2 {
+  font-size: 50px;
+  margin: 40px auto;
+  text-decoration: underline;
+  width: 50%;
 }
 
 .eachPlanet {
-  display: flex;
-  justify-content: center;
-  width: 10%;
+  display: inline-block;
 }
 
 .eachPlanet img {
   width: 150px;
+}
+
+.missions h2 {
+  font-size: 40px;
+  margin: 40px auto;
+  text-decoration: underline;
+  width: 50%;
+}
+
+.mission-card {
+  background: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  margin: 5px 20px;
+  padding: 5px;
 }
 
 .App {
